@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root{
+  --colorBody: hsl(220, 25%, 88%);
+  --colorComponent: hsl(0, 0%, 100%);
+  --colorParagraph:hsl(220, 15%, 55%);
+  --colorTitle: hsl(218, 44%, 22%);
+  --regular: 400;
+  --bold: 700;
+}
+
+body{
+  background-color: var(--colorBody);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+}
+
+main{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+#card{
+  background-color: var(--colorComponent);
+  width: 310px;
+  padding: 15px;
+  height: auto;
+  border-radius: 20px;
+  text-align: center;
+}
+
+#card img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+#card h1{
+  color: var(--colorTitle);
+  font-size: 24px;
+}
+
+#card p{
+  padding: 5px 15px;
+  color: var(--colorParagraph);
+}
+
